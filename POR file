@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() {
+    // escreva (" Olá Mundo")
+    // cadeia name, lastName
+
+    //   escreva ("Digite o seu nome:", name)
+    //     leia(name)
+
+    //   escreva("Agora, digite o seu sobrenome:", lastName)
+    //    leia(lastName)
+
+    //   escreva("O seu nome é:", name, lastName)
+        
+    cadeia name
+    inteiro  yearsOld 
+    real height 
+
+      escreva("Por favor, digite o seu nome:", name)
+        leia(name)
+
+      escreva ("Agora, digite a sua idade:", yearsOld)
+        leia(yearsOld)
+
+      escreva ("Por último, digite a sua altura:", height)
+        leia(height)
+
+      escreva ("Dados pessoais:", name, yearsOld, height)
+
+  }
+
+
+}
